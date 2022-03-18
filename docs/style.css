@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-  background: linear-gradient(236.85deg, #9138C7 27.26%, #9D4FCC 95.03%);
+  background: linear-gradient(236.85deg, #B378FF 27.26%, #9D4FCC 95.03%);
   font-family: 'Roboto', sans-serif;
 }
 
@@ -60,7 +60,7 @@ body {
 
 .container-projetos {
   margin-top: 30px;
-  background: linear-gradient(230.65deg, #B842FF 27.26%, #AF5DE1 95.03%);
+  background: linear-gradient(230.65deg, #C292FF 27.26%, #AF5DE1 95.03%);
   padding: 35px;
   box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
   border-radius: 20px;
@@ -86,12 +86,16 @@ body {
 }
 
 .dark {
-  background: linear-gradient(236.85deg, #375B86 27.26%, #6B87A9 96.03%);
+  background: linear-gradient(700.85deg, #1F0D36 27.26%, #130821 96.03%);
 }
 
 .dark .container {
-  background: #333439;
+  background: #2A2B2F;
   color: #F6F6F6;
+}
+
+.dark .container-projetos{
+  background: linear-gradient(230.65deg, #7F4AC2 27.26%, #AF5DE1 95.03%);
 }
 
 .dark .projetos {
@@ -99,7 +103,7 @@ body {
 }
 
 .dark .tema button {
-  background: #1C1C1C;
+  background: #1D1D1D;
   color: #FFFFFF;
   border: 2px solid #F7F7F7;
 }
